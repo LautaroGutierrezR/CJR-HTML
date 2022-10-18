@@ -2,22 +2,83 @@
     padding: 0px;
     margin: 0px;
 }
-h1{ background-image: url("Audi-LED.jpeg");
+h1{ background-image: url("imagenes/Audi-LED.jpeg");
 color: rgb(244, 0, 0);
 height: 550px;
 background-attachment: fixed;
 }
 
-}
 h2{
-    color: red;
+    color: rgb(199, 127, 127);
 }
+.navegacion{
+    position: sticky;
+    top: 0px;
+}
+.carrito{
+    display: flex;
+    justify-content: end;
+}
+
 .mainmenu{
     list-style-type: none;  
     background-color: rgb(244, 0, 0);
     padding: 10px;
-    }
+   }
+    .menu:hover{
+        color: rgb(95, 90, 95);
+     }
+
 .menu{
     display: inline;
     padding: 28px;
+    color: black;
+   }
+                                        /*    TARJETOVICH        */
+
+  .PadreTarjetovich{
+   display: flex;
+    gap: 30px;
+    padding-bottom: 20px;
+    background-color: rgb(0, 0, 0);
+    
 }
+   .tarjetovich{
+    max-width: 400px;
+    border: 2px solid black; 
+    box-shadow: 1px 2px 20px red;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.705);
+    
+}
+ul{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+ button{ 
+    color: rgb(0, 0, 0);
+    background-color: red;
+    justify-self: center;
+
+}
+.imgtarjetovich{
+    width: 100%;
+}
+
+
+
+                                     /*  PIE DE PAGINA */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(205, 0, 0);
+    height: 100px
+    }
+
+ .copyright{
+    align-self: flex-end;
+    margin-right: 5px;
+ }

@@ -1,3 +1,7 @@
+*{
+    margin: 0px;
+    
+}
 .mainmenu{
     list-style-type: none;  
     background-color: rgb(244, 0, 0);
@@ -6,12 +10,20 @@
 .menu{
     display: inline;
     padding: 28px;
+    color: black;
 }
+.menu:hover{
+    color: rgb(85, 76, 85);
 
+}
 .tarjetovich{
     max-width: 400px;
     border: 2px solid black; 
     box-shadow: 1px 2px 20px red;
+    padding: 10px;
+    background-color: chartreuse
+    
+;
     
 }
 .imgtarjetovich{
@@ -20,4 +32,15 @@
 .PadreTarjetovich{
     display: flex;
     gap: 30px;
+    padding-bottom: 20px;
+    background-color: aquamarine;
+    
+}
+h1{
+    padding-bottom: 20px;
+    padding-top: 20px ;
+    background-color: rgb(105, 104, 102);
+}
+.cjrimg{
+    padding-top: 30px;
 }
