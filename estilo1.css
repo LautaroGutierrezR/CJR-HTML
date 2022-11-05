@@ -1,19 +1,25 @@
 *{
     padding: 0px;
     margin: 0px;
+   
 }
-h1{ background-image: url("imagenes/Audi-LED.jpeg");
+.h1{ background-image: url("imagenes/Audi-LED.jpeg");
 color: rgb(244, 0, 0);
 height: 550px;
 background-attachment: fixed;
+background-size: cover;
+
+
 }
 
 h2{
     color: rgb(199, 127, 127);
 }
+
 .navegacion{
     position: sticky;
     top: 0px;
+    background-color: rgb(244, 0, 0);
 }
 .carrito{
     display: flex;
@@ -38,34 +44,111 @@ h2{
 
   .PadreTarjetovich{
    display: flex;
-    gap: 30px;
+    gap: 50px;
     padding-bottom: 20px;
     background-color: rgb(0, 0, 0);
+    justify-content: center;
     
 }
    .tarjetovich{
-    max-width: 400px;
+    height: 500px;
+    width: 350px;
     border: 2px solid black; 
     box-shadow: 1px 2px 20px red;
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.705);
     
-}
-ul{
-    padding-left: 10px;
-    padding-top: 10px;
-}
- button{ 
-    color: rgb(0, 0, 0);
-    background-color: red;
-    justify-self: center;
+    
 
+   
+
+    
 }
+.lista{
+    padding-right: 15px;
+}
+
+
+ 
+
 .imgtarjetovich{
     width: 100%;
 }
+.elementos-lista{
+    display: flex;
+    flex-direction: column;
+    
+}
+button{ 
+    color: rgb(0, 0, 0);
+    background-color: red;
+    height: 30px;
+    width: max-content;
+    align-self: center;
+    }
 
+ ul{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.quienes-somos{
+    background-color: gainsboro;
+    color: red;
+    display: flex;
+    justify-content: center;
+}
+.nosotros{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
 
+}
+.descripcion{
+    width: 50%;
+    border: 2px solid black;
+    padding: 15px;
+    background-color: gainsboro;
+    height: 450px;
+    
+}
+
+.nuestrosclientes{
+   display: flex;
+}
+.hamilton{
+     display: flex;
+    background-color: black;
+    width: 50%;
+    gap: 30px;
+    }
+    .citahamilton{
+        width: 280px;
+        padding: 25px;
+        color: white;
+    }
+     
+.imagenhamilton{
+    border-radius: 200px;
+    width: 200px;
+    margin-left: 30px;
+
+    
+}
+ .pibe{ 
+    display: flex;
+    background-color: black;
+gap: 30px;
+width: 50%;
+}
+.imagen-pibe{
+    border-radius: 200px;
+}
+.cita-pibe{
+    color:white;
+    width: 280px;
+    padding: 25px;
+    
+}
 
                                      /*  PIE DE PAGINA */
 
@@ -81,4 +164,51 @@ ul{
  .copyright{
     align-self: flex-end;
     margin-right: 5px;
+
+
+
+
+
  }
+ .practica{
+    background-color: blue;
+ }
+ .card{
+    width:600;
+
+ }
+ .gold{
+    background-color: gold;
+    padding: 0px;
+    margin: 0px;
+    height: 50px;
+padding-left: 20px;
+padding-top: 10px;
+ }
+
+ .carousel{
+    background-color: rgb(67, 72, 72);
+ }
+.Formulario{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color:rgb(163, 56, 56);
+    gap: 30px;
+    padding: 40px;
+    
+
+ 
+    
+}
+.Catar{
+    background-color: gold;
+}
+.itemf{
+    height: 50px;
+    border-radius: 10px;
+}
+.itemc{
+    height: 100px;
+    border-radius: 10px;
+}

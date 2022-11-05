@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteo</title>
+    <link rel="stylesheet" href="estilo1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+</head>
+<body>
+    <nav class="navegacion">
+        <div class="navbar navbar-expand-lg bg-rgb(244, 0, 0);">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Sorteo</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Contacto
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="https://wa.me/541164606646" target="_blank">Whatsapp</a></li>
+                      <li><a class="dropdown-item" href="https://www.instagram.com/cjr.repuestos/?hl=es" target="_blank">instagram</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </div> 
+    </nav>
+    <h1 class="Catar">CJR te lleva a Catar</h1>
+    <form action="" method="post" class="Formulario">
+        <label for="Nombre:">
+            Nombre
+            <input type="text" name="Nombre:" id="Nombre:" required placeholder="Zulma" class="itemf">
+        </label>
+        <label for="Apellido:">
+            Apellido
+            <input type="text" name="Apellido:" id="Apellido:" required placeholder="Lobato" class="itemf">
+        </label>
+        <label for="Mail:">
+            Correo Electronico
+            <input type="email" name="Mail:" id="Mail:" required placeholder="fandewan@gmail.com" class="itemf">
+        </label>
+        <label for="Pais">Seleccione Pais de origen
+            <select name="Pais" id="Pais">
+                <option value="Argentina"> Argentina🇦🇷 </option>
+                <option value="Uruguay"> Uruguay🇺🇾</option>
+                <option value="Chipre"> Chipre🇨🇾</option>
+                <option value="RPDK"> Corea Del Norte🇰🇵</option>
+            </select>
+        </label>
+        <label for="Color:">
+            Color Favorito
+            <input type="color" name="Color:" id="Color:">
+        </label>
+        <label for="Mayor:">
+        Soy mayor de edad
+            <input type="checkbox" name="Mayor:" id="Mayor:" value="Si" required>
+        </label>
+        <label for="Terminos">
+            No lei los terminos y condiciones pero los acepto de todos modos
+                <input type="checkbox" name="Terminos:" id="Terminos" value="Si" required>
+            </label>
+            <label for="Comentarios">Comentarios</label>
+            <textarea class="itemc" name="Comentarios" id="Comentarios" maxlength="200" placeholder="Contanos porque te gustaria ganar este sorteo"></textarea>
+            <input type="submit" value="Participa!">
+    </form>
+    <footer class="footer">
+        <img class="logofoot" src="imagenes/cjrhome.jpeg" height="100%">
+        <div class="redes">
+            <a href="https://www.instagram.com/cjr.repuestos/?hl=es"target=_BLANK> <img src="imagenes/social_instagram_3.png" alt="imagen whatsapp" width="75px" height="75px"> </a>
+            <a href="https://wa.me/541164606646" target="_blank"><img src="imagenes/whatsapp_black_logo_icon_147050.png" alt="imagen whatapp"width="75px" height="75px"></a>
+        </div>
+        <div class="copyright">
+              <small>&copy;CJR Todos Los Derechos Reservados</small>
+        </div>
+     
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+</body>
+</html>
