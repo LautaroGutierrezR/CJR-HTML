@@ -8,8 +8,6 @@ color: rgb(244, 0, 0);
 height: 550px;
 background-attachment: fixed;
 background-size: cover;
-
-
 }
 
 h2{
@@ -48,15 +46,20 @@ h2{
     padding-bottom: 20px;
     background-color: rgb(0, 0, 0);
     justify-content: center;
+    padding-top: 30px;
     
 }
+.AAC{
+    border-radius: 30px;
+}
    .tarjetovich{
-    height: 500px;
-    width: 350px;
+    height: 600px;
+    width: 400px;
     border: 2px solid black; 
     box-shadow: 1px 2px 20px red;
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.705);
+    border-radius: 30px;
     
     
 
@@ -73,6 +76,7 @@ h2{
 
 .imgtarjetovich{
     width: 100%;
+    border-radius: 30px;
 }
 .elementos-lista{
     display: flex;
@@ -102,6 +106,10 @@ button{
     justify-content: space-between;
     background-color: black;
 
+}
+.nos-conocen{
+    background-color: black;
+    color: red;
 }
 .descripcion{
     width: 50%;
@@ -142,6 +150,7 @@ width: 50%;
 }
 .imagen-pibe{
     border-radius: 200px;
+    width: 200px;
 }
 .cita-pibe{
     color:white;
@@ -154,7 +163,7 @@ width: 50%;
 
 .footer{
     display: flex;
-    justify-content: center;
+   
     align-items: center;
     justify-content: space-between;
     background-color: rgb(205, 0, 0);
@@ -165,11 +174,9 @@ width: 50%;
     align-self: flex-end;
     margin-right: 5px;
 
+}
+.redes
 
-
-
-
- }
  .practica{
     background-color: blue;
  }
@@ -212,3 +219,84 @@ padding-top: 10px;
     height: 100px;
     border-radius: 10px;
 }
+
+
+
+
+
+                                  /* RESPONSIVE DESING */
+                                  
+@media(max-width:1050px)   {
+    .nosotros{
+        flex-direction: column;
+        width: 100%;
+    }
+    .descripcion{
+        width: 100%;
+    }
+    .iframe{
+        width: 100%;
+    }
+    .imagenhamilton{
+        width: 150px;
+        height: 250px;
+        padding-top: 10px;
+        align-self: center;
+        
+    }
+    .imagen-pibe{
+        width: 150px;
+        height: 250px;
+    }
+    .citahamilton{
+       padding-left: 0;
+    }
+    .cita-pibe{
+        padding-left: 0px;
+    }
+    .imagen-pibe{
+        padding-left: 10px;
+        padding-top: 10px;
+        align-self: center;
+    }
+    .h1{
+        height: 450px;
+        background-position: center;
+    }  
+    .tarjetovich{
+        height: 520px;
+    }   
+}
+
+
+@media(max-width:500px){
+    .PadreTarjetovich{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .tarjetovich{
+height: 600px;
+width: 370px;
+    }
+    
+    
+        
+
+    
+    .nuestrosclientes{
+        flex-direction: column;
+    }
+    .hamilton{
+        width: 100%;
+    }
+    .pibe{
+        width: 100%;
+    }
+    .imagen-pibe{
+        margin-left: 30px;
+    }
+    
+}
+
+                                
