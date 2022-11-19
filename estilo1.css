@@ -95,6 +95,9 @@ button{
     padding-left: 10px;
     padding-top: 10px;
 }
+.nomostrar{
+    visibility:hidden
+}
 .quienes-somos{
     background-color: gainsboro;
     color: red;
@@ -110,6 +113,8 @@ button{
 .nos-conocen{
     background-color: black;
     color: red;
+    padding: 0px;
+    margin: 0px;
 }
 .descripcion{
     width: 50%;
@@ -296,7 +301,12 @@ width: 370px;
     .imagen-pibe{
         margin-left: 30px;
     }
-    
+    .footer{
+        height: 150px;
+    }
+    .copyright{
+        padding-left: 10px;
+    }
 }
 
                                 

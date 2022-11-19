@@ -1,4 +1,4 @@
-let listaProductos=[Kit207,KitHilux,KitDuster,KitGoltrend,KitFordKA,KitClio]
+//let listaProductos=[Kit207,KitHilux,KitDuster,KitGoltrend,KitFordKA,KitClio];
 
 let Kit207={
     Marca:"CJR",
@@ -34,3 +34,15 @@ let KitFordKA={
     Precio:51250,
     Stock:1000,
 }
+
+
+function saludo(){
+    let nombre=prompt("Como te llamas?")
+    alert("Hola "+ nombre+"!")
+}
+
+let ClickSaludo = document.querySelector("#saludar");
+
+ClickSaludo.addEventListener("click",saludo);
+
+
