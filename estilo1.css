@@ -19,6 +19,9 @@ h2{
     top: 0px;
     background-color: rgb(244, 0, 0);
 }
+#navbar{
+    visibility: hidden;
+}
 .carrito{
     display: flex;
     justify-content: end;
