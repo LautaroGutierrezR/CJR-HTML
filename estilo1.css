@@ -10,6 +10,19 @@ background-attachment: fixed;
 background-size: cover;
 }
 
+.portadacelular{
+    background-color: black;
+    display: none;
+}
+.celularbox{
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    display: none;
+    
+}
+
+
 h2{
     color: rgb(199, 127, 127);
 }
@@ -22,9 +35,19 @@ h2{
 #navbar{
     visibility: hidden;
 }
-.carrito{
+.caja-carrito{
     display: flex;
-    justify-content: end;
+    justify-content: center;
+    background-color: dimgrey;
+}
+
+:hover.carrito{
+    cursor: pointer;
+}
+
+.carrito{
+   height:40px;
+    
 }
 
 .mainmenu{
@@ -52,8 +75,23 @@ h2{
     padding-top: 30px;
     
 }
+.PadreTarjetovich2{
+    display: flex;
+     gap: 50px;
+     padding-bottom: 20px;
+     background-color: rgb(0, 0, 0);
+     justify-content: center;
+     padding-top: 30px;
+     display: none;
+     
+ }
+
+
 .AAC{
     border-radius: 30px;
+
+
+
 }
    .tarjetovich{
     height: 600px;
@@ -63,13 +101,12 @@ h2{
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.705);
     border-radius: 30px;
-    
-    
 
-   
 
-    
-}
+
+}.precio{
+        color: green;
+    }
 .lista{
     padding-right: 15px;
 }
@@ -80,6 +117,8 @@ h2{
 .imgtarjetovich{
     width: 100%;
     border-radius: 30px;
+    height: 300px;
+    
 }
 .elementos-lista{
     display: flex;
@@ -118,7 +157,9 @@ button{
     color: red;
     padding: 0px;
     margin: 0px;
+    padding-left: 20px;
 }
+
 .descripcion{
     width: 50%;
     border: 2px solid black;
@@ -128,14 +169,21 @@ button{
     
 }
 
+
+
+
+
 .nuestrosclientes{
    display: flex;
+   width: 100%;
 }
 .hamilton{
      display: flex;
     background-color: black;
     width: 50%;
     gap: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     }
     .citahamilton{
         width: 280px;
@@ -153,12 +201,15 @@ button{
  .pibe{ 
     display: flex;
     background-color: black;
-gap: 30px;
-width: 50%;
+   gap: 30px;
+    width: 50% ;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .imagen-pibe{
     border-radius: 200px;
     width: 200px;
+  
 }
 .cita-pibe{
     color:white;
@@ -171,20 +222,24 @@ width: 50%;
 
 .footer{
     display: flex;
-   
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     background-color: rgb(205, 0, 0);
-    height: 100px
+    height: 100px;
+    gap: 30px;
+    
     }
 
  .copyright{
-    align-self: flex-end;
-    margin-right: 5px;
+   color: gainsboro;
+   background-color: black;
+   
 
 }
-.redes
 
+.logofoot{
+   display: none;
+}
  .practica{
     background-color: blue;
  }
@@ -208,16 +263,20 @@ padding-top: 10px;
     display: flex;
     flex-direction: column;
     padding: 10px;
-    background-color:rgb(163, 56, 56);
+    background-color:rgb(110, 11, 20);
     gap: 30px;
     padding: 40px;
+    color: darkgray;
     
 
  
     
 }
 .Catar{
-    background-color: gold;
+    background-color:grey;
+    margin: 0px;
+    color: whitesmoke;
+    padding: 20px;
 }
 .itemf{
     height: 50px;
@@ -255,13 +314,10 @@ padding-top: 10px;
     .imagen-pibe{
         width: 150px;
         height: 250px;
+        margin-left: 20px;
     }
-    .citahamilton{
-       padding-left: 0;
-    }
-    .cita-pibe{
-        padding-left: 0px;
-    }
+    
+   
     .imagen-pibe{
         padding-left: 10px;
         padding-top: 10px;
@@ -271,27 +327,17 @@ padding-top: 10px;
         height: 450px;
         background-position: center;
     }  
-    .tarjetovich{
-        height: 520px;
-    }   
-}
-
-
-@media(max-width:500px){
+    
+    .PadreTarjetovich2{
+        display: block;
+        display: flex;
+    }  
     .PadreTarjetovich{
-        flex-direction: column;
-        align-items: center;
-        
+        display: none;
     }
-    .tarjetovich{
-height: 600px;
-width: 370px;
-    }
-    
-    
-        
-
-    
+       
+}
+@media(max-width:800px){
     .nuestrosclientes{
         flex-direction: column;
     }
@@ -301,15 +347,46 @@ width: 370px;
     .pibe{
         width: 100%;
     }
-    .imagen-pibe{
-        margin-left: 30px;
+}
+
+
+@media(max-width:500px){
+    .PadreTarjetovich2{
+        flex-direction: column;
+        align-items: center;
+        
     }
-    .footer{
-        height: 150px;
+  .h1{
+    display: none;
+  }
+  .portadacelular{
+    display: block;
+}
+.celularbox{
+    background-color:black;
+    display: block;
+    
+}
+.imgcelular{
+    padding-left: 40px;
+}
+
+
+.descripcion{font-size: small;}
+.cita-pibe{
+    font-size: small;
+}
+.citahamilton{
+    font-size: small;
+}
+
+
+    .tarjetovich{
+    height: 600px;
+    width: 370px;
     }
-    .copyright{
-        padding-left: 10px;
-    }
+    
+   
 }
 
                                 
