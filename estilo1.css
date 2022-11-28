@@ -49,6 +49,9 @@ h2{
    height:40px;
     
 }
+.visually-hidden{
+    color: red;
+}
 
 .mainmenu{
     list-style-type: none;  
@@ -359,8 +362,10 @@ padding-top: 10px;
   .h1{
     display: none;
   }
+  /* aca pasa algo raro, mas arriba aplique un justify content y en la pantalla grande se encuentra centrado pero al aplicar el display block deja de estar centrado*/
   .portadacelular{
     display: block;
+  
 }
 .celularbox{
     background-color:black;
